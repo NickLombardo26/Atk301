@@ -1,0 +1,111 @@
+body {
+  background-image: url(pic1.png);
+}
+
+div {
+  background-color: white;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 0px;
+  width: 910px;
+  height: 850px;
+  margin: auto;
+  padding: 10px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 100px auto 75px;
+}
+
+header {
+  grid-column: span 4;
+  color: white;
+  background-color: black;
+  padding-left: 40px;
+  font-style: normal;
+  font-family: helvetica;
+}
+
+nav {
+  float: left;
+  grid-column: span 1;
+  margin: 5px;
+  margin-left: -40px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+main {
+  width: 650px;
+  grid-column: span 3;
+  margin-right: 15px;
+  margin-left: 0px;
+}
+
+.HeaderTwo {
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+  width: 670px;
+}
+
+img {
+  float: left;
+  margin-left: 0px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 400px;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+li {
+  background-color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 200px;
+  margin-right: 15px;
+  font-family: Helvetica;
+  padding-left: 10px;
+}
+
+li:hover {
+  background-color: brown;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.George {
+  text-align: left;
+  font-style: Georgia;
+  font-weight: bold;
+}
+
+.red{
+  color: red;
+  font-weight: bold;
+}
+
+footer {
+  margin: auto;
+  color: white;
+  background-color: red;
+  border: 3px solid black;
+  font-size: 16px;
+  width: 930px;
+  font-family: Verdana;
+  text-align: center;
+  font-style: italic;
+}
