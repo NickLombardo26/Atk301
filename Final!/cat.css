@@ -1,0 +1,38 @@
+body{
+  background-image: url(cat.png);
+}
+
+h1{
+  color: white;
+  background-color: black;
+  width: 700px;
+  position: absolute;
+  text-align: center;
+  top: 380px;
+  left:600px;
+  border-radius: 20px;
+  padding: 5px;
+}
+audio {
+  position: absolute;
+  left: 800px;
+  top: 500px;
+}
+
+a {
+  text-decoration: underline;
+
+  color: white;
+  background-color: black;
+  width: 200px;
+  position: absolute;
+  text-align: center;
+  top: 460px;
+  left:850px;
+  border-radius: 20px;
+  padding: 5px;
+}
+a:hover {
+  color: #1482f3;
+  text-decoration: underline;
+}

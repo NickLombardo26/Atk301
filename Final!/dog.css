@@ -1,0 +1,33 @@
+body{
+  background-image: url(dog.png);
+}
+h1{
+  color: black;
+  background-color: white;
+  width: 600px;
+  position: absolute;
+  text-align: center;
+  top: 380px;
+  left:600px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+
+a {
+  text-decoration: underline;
+
+  color: black;
+  background-color: white;
+  width: 400px;
+  position: absolute;
+  text-align: center;
+  top: 500px;
+  left:700px;
+  border-radius: 20px;
+  padding: 5px;
+}
+a:hover {
+  color: #1482f3;
+  text-decoration: underline;
+}
